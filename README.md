@@ -120,7 +120,7 @@ response = {
 
     status': 'ok', 
     'data': {
-        'statement': 'STORE COLLECTION doc1;', 
+        'statement': 'INSERT INTO mycoll1 VALUES ( 0.1, 0.2, 1.3, 0.4 );', 
         'id': '6fefcb3a-2c90-48f2-ac60-dd4e7ae1779f'
     }
 }
@@ -280,6 +280,6 @@ If something does not work, try running these commands:
 
 ```
 # apt install python3
-$ pip install faiss numpy asyncio lark
+$ pip install faiss_cpu numpy asyncio lark
 ```
 
