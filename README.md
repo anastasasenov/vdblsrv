@@ -1,7 +1,7 @@
 # vdblsrv
 
 An asynchronous vector database server with a clean and minimal REST API for similarity search, embeddings storage, and metadata querying.
-Designed for AI, retrieval‑augmented generation (RAG), semantic search, and real‑time recommendation systems.
+Designed for AI, retrieval-augmented generation (RAG), semantic search, and realtime recommendation systems.
 
 Built on FAISS engine ( Facebook AI Similarity Search - see https://faiss.ai )
 
@@ -22,7 +22,7 @@ Built on FAISS engine ( Facebook AI Similarity Search - see https://faiss.ai )
 
     Load/Save persistance
 
-    Lightweight & container‑friendly
+    LLightweight & container-friendly
 
 
 ## Installation
@@ -266,7 +266,7 @@ RESTORE COLLECTION <NAME> ;
 
 ## License
 
-MIT License — free for commercial and personal use.
+MIT License - free for commercial and personal use.
 
 
 ## Inspired by
